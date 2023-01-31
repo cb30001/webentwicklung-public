@@ -1,0 +1,46 @@
+CRITICAL - 2023-01-15 06:55:30 --> Call to undefined function form_open()
+in APPPATH\Views\Login\Login_Codeigniter.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Login/Login_Codeigniter.php', [], true)
+ 4 APPPATH\Controllers\LoginControler.php(12): view('Login/Login_Codeigniter.php')
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\LoginControler->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginControler))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 07:30:48 --> Undefined constant "App\Controllers\MitgliederModel"
+in APPPATH\Controllers\Mitglieder.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mitglieder->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitglieder))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 07:58:06 --> Undefined constant "App\Controllers\MitgliederModel"
+in APPPATH\Controllers\Mitglieder.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Mitglieder->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mitglieder))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 07:58:16 --> include(Arrays.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Reiter\Reiter.php on line 15.
+ 1 APPPATH\Views\Reiter\Reiter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Arrays.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Reiter\\Reiter.php', 15)
+ 2 APPPATH\Views\Reiter\Reiter.php(15): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Reiter\\Reiter.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Reiter/Reiter.php', [], true)
+ 6 APPPATH\Controllers\Reiter.php(8): view('Reiter/Reiter.php')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Reiter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reiter))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 07:58:25 --> include(Arrays.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Todos\Todos.php on line 16.
+ 1 APPPATH\Views\Todos\Todos.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Arrays.php): Failed to open stream: No such file or directory', 'APPPATH\\Views\\Todos\\Todos.php', 16)
+ 2 APPPATH\Views\Todos\Todos.php(16): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Todos\\Todos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Todos/Todos.php', [], true)
+ 6 APPPATH\Controllers\TodosControler.php(8): view('Todos/Todos.php')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TodosControler->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TodosControler))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
